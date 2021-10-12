@@ -1,18 +1,27 @@
-#yellow {
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "greenn greenn greenn"
+                         "yelloww orangee redd"
+                         "yelloww bluee redd";
+}
+
+#y{
+    grid-area: yelloww;
+}
+
+#r{
+    grid-area: redd;
+}
+    
+#g{
+    grid-area: greenn;
+}
+
+#o{
 
 }
 
-#red {
-
-}
-
-#green {
-
-}
-
-#orange {
-
-}
-
-#blue {
+#b{
 }
