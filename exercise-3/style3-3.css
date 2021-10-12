@@ -1,18 +1,64 @@
-#yellow {
-
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "wellow wellow wellow wellow"
+    "blu orng orng orng"
+    "blu rad rad rad"
+    "blu gren gren gren";
 }
 
-#red {
-
+#y ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-#green {
-
+#r ul {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-areas: "a b c d";
 }
 
-#orange {
-
+#r li {
+  grid-column: span 1;
 }
 
-#blue {
+.one {
+  grid-column: span 2;
+}
+
+#y {
+  grid-area: wellow;
+}
+
+#r {
+  grid-area: rad;
+}
+
+#g {
+  grid-area: gren;
+}
+
+#o {
+  grid-area: orng;
+}
+
+#b {
+  grid-area: blu;
+}
+
+.a1 {
+  grid-area: a;
+}
+.b1 {
+  grid-area: b;
+}
+
+.c1 {
+  grid-area: c;
+}
+
+.d1 {
+  grid-area: d;
 }
