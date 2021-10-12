@@ -1,18 +1,24 @@
-#yellow {
-
+body {
+    display: flex;
 }
 
-#red {
-
+#y{
+    order: 0;
 }
 
-#green {
-
+#r{
+    order: 1;
 }
 
-#orange {
-
+#g{
+    order: 2;
 }
 
-#blue {
+#o{
+    order: 3;
+    flex-grow: 1.5;
+}
+
+#b{
+    order: 4;
 }
