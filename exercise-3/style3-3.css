@@ -14,16 +14,6 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
-#r ul {
-  display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
-  grid-template-areas: "a b c d";
-}
-
-#r li {
-  grid-column: span 1;
-}
-
 .one {
   grid-column: span 2;
 }
@@ -48,17 +38,24 @@ body {
   grid-area: blu;
 }
 
-.a1 {
-  grid-area: a;
-}
-.b1 {
-  grid-area: b;
+#a1 {
+  grid-area: bopion;
 }
 
-.c1 {
-  grid-area: c;
+#b1 {
+  grid-area: umomen;
 }
 
-.d1 {
-  grid-area: d;
+#c1 {
+  grid-area: hgakme;
 }
+
+#d1 {
+  grid-area: kagam;
+}
+
+#r ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-areas: "kagam hgakme umomen bopion";
+  }
