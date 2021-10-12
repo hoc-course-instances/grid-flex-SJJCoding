@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+  padding:60px;
+}
+
+section {
+  padding: 32px;
+  margin: 16px;
+}
+
+#g {
+  background-color: #baffc9;
+}
+
+#o {
+  background-color: #ffdfba;
+}
+
+#y {
+  background-color:   #ffffba;
+}
+
+#r {
+  background-color:   #ffb3ba;
+}
+
+#b {
+  background-color:   #bae1ff;
+}
+
+ul { 
+  padding: 0; 
+}
+
+li {
+  background-color: white;
+  padding: 16px;
+  display: block;
+  margin: 16px;
+}
