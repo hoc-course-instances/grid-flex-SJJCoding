@@ -1,18 +1,29 @@
-#yellow {
+body{display: grid;
+grid-template-rows: 1fr 2fr 1fr ;grid-template-columns: repeat(3, 1fr);
+grid-template-areas: "gren gren gren"
+                     "whellowe rede blu"
+                     "orang orang blu";}
 
+
+
+#y {
+grid-area:whellowe ;
 }
 
-#red {
-
+#r {
+grid-area: rede;
 }
 
-#green {
-
+#g {
+grid-area:gren ;
 }
 
-#orange {
-
+#o {
+grid-area:orang ;
 }
 
-#blue {
+#b {grid-area:blu ;
 }
+
+ul {display: grid;
+grid-template-columns: 1fr 1fr;}
